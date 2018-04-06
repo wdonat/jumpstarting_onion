@@ -3,10 +3,10 @@ import temperatureSensor
 from twython import Twython
 
 # Twitter stuff
-app_key = "ToxWXdvWNNrh97l5vYPDoAjsf"
-app_secret = "YpcVk6hYsLvsh7t7bxm1NCfY52stWx0tPnQDD4aXP4mfNoA1lA"
-oauth_token = "2680369399-fU3uoNKwDelbpeuoUGd3tPAmrvjrM2FgvM7iDaH"
-oauth_secret = "qvDkgdVJcEg1EcOj64QhPnKJGeasjJGgrsKynObq5kSMF"
+app_key = "<Your App Key Here>"
+app_secret = "<Your App Secret Key Here>"
+oauth_token = "<Your OAUTH Token Here>"
+oauth_secret = "<Your OAUTH Secret Here>"
 twitter = Twython(app_key, app_secret, oauth_token, oauth_secret)
 
 oneWireGpio = 19
