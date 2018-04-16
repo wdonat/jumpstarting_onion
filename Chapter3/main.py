@@ -38,7 +38,7 @@ def __main__():
     temperature = temperature * (9.0/5.0) + 32.0
     
     # Post to Twitter
-    twitter.update_status(status="Current Omega2 temperature: " + str(temperature))
+    twitter.update_status(status="Current Omega2 temperature: " + str(temperature)) + "F"
     
     
 if __name__ == '__main__':
